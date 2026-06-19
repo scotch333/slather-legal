@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slather — Privacy Policy</title>
+<style>
+  :root { --bg:#fff8f0; --ink:#2a1e12; --muted:#6b5a48; --accent:#ff9800; --rule:#f0e2d2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1a130b; --ink:#f3ece2; --muted:#b8a890; --accent:#ffb74d; --rule:#3a2c1c; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--ink);
+    font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%;
+  }
+  main { max-width:720px; margin:0 auto; padding:48px 24px 80px; }
+  h1 { font-size:2rem; margin:0 0 4px; letter-spacing:-0.01em; }
+  h2 { font-size:1.2rem; margin:2.2em 0 0.4em; padding-top:0.6em; border-top:1px solid var(--rule); }
+  h2:first-of-type { border-top:none; }
+  .eff { color:var(--muted); font-size:0.95rem; margin:0 0 1.6em; }
+  .sun { color:var(--accent); font-weight:700; }
+  a { color:var(--accent); }
+  ul { padding-left:1.2em; }
+  li { margin:0.3em 0; }
+  strong { color:var(--ink); }
+  footer { margin-top:2.4em; padding-top:1.2em; border-top:1px solid var(--rule); color:var(--muted); font-size:0.95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1><span class="sun">🌞</span> Slather — Privacy Policy</h1>
+  <p class="eff">Effective date: June 19, 2026</p>
+
+  <p>Slather is a sunscreen-reapplication reminder app. It reads the current UV index
+  for your location, lets you pick an SPF, and reminds you when to reapply. This policy
+  explains what the app does — and does not do — with your information.</p>
+
+  <h2>The short version</h2>
+  <p>Slather is built to need as little of your data as possible. There are
+  <strong>no accounts</strong>, <strong>no analytics</strong>,
+  <strong>no advertising</strong>, <strong>no tracking</strong>, and
+  <strong>no third-party data collection</strong>. Slather has no servers of its own —
+  your session history, settings, and reminders live <strong>on your device</strong>.
+  The only piece of information that leaves your device is your <strong>location</strong>,
+  which is sent to Apple's weather service so the app can look up your local UV index.</p>
+
+  <h2>Information Slather uses</h2>
+  <p><strong>Location.</strong> With your permission, Slather reads your device's
+  location and sends it to <strong>Apple WeatherKit</strong> to retrieve the current UV
+  index for where you are. Your location is used only for this purpose, while you're
+  using the app. It is <strong>not</strong> stored by the developer, <strong>not</strong>
+  linked to your identity, and <strong>not</strong> used to track you. If you deny
+  location access, the app simply can't look up your UV index.</p>
+
+  <p><strong>Health data (optional, off by default).</strong> If — and only if — you
+  turn on <em>Settings → Apple Health → Sync to Apple Health</em>, Slather
+  <strong>writes</strong> a UV-exposure sample to the Apple Health app for each sun
+  session you log. Slather <strong>never reads</strong> any data from Apple Health.
+  These samples stay within Apple Health on your device (and your iCloud Health data, if
+  enabled), under Apple's control — not the developer's. You can turn this off at any
+  time, and delete the samples in the Health app.</p>
+
+  <p><strong>On-device data.</strong> Your <strong>session history</strong> and
+  <strong>app preferences</strong> (such as your default SPF) are stored locally on your
+  device using Apple's standard storage (Core Data and UserDefaults). This information
+  never leaves your device and is not transmitted to the developer or anyone else.</p>
+
+  <p><strong>Notifications.</strong> Reapply reminders are <strong>local
+  notifications</strong> scheduled on your device. They are not sent through any server
+  and do not involve any personal data leaving your phone.</p>
+
+  <h2>What Slather does not do</h2>
+  <ul>
+    <li>It does <strong>not</strong> require an account or sign-in.</li>
+    <li>It does <strong>not</strong> collect analytics or usage statistics.</li>
+    <li>It does <strong>not</strong> contain advertising or ad-tracking.</li>
+    <li>It does <strong>not</strong> track you across apps or websites.</li>
+    <li>It does <strong>not</strong> include third-party SDKs that collect your data.</li>
+    <li>It does <strong>not</strong> sell or share your personal information.</li>
+  </ul>
+
+  <h2>Third-party services</h2>
+  <ul>
+    <li><strong>Apple WeatherKit</strong> — receives your location to return UV and
+    weather data. Governed by the
+    <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</li>
+    <li><strong>Apple Health (HealthKit)</strong> — stores the UV-exposure samples you
+    opt to save, under Apple's control and your Health privacy settings.</li>
+    <li><strong>Apple TestFlight (beta only)</strong> — while Slather is distributed as a
+    TestFlight beta, Apple may collect crash logs and basic usage information from the
+    beta build to help diagnose problems, governed by Apple's
+    <a href="https://www.apple.com/legal/privacy/">privacy policy</a>. The developer does
+    not receive your personal information through this.</li>
+  </ul>
+
+  <h2>Data retention and deletion</h2>
+  <p>Because your data is stored on your device, <strong>deleting the Slather app
+  removes</strong> its session history and preferences from your device. UV-exposure
+  samples written to Apple Health are managed in the <strong>Health app</strong> and are
+  not deleted by removing Slather — you can remove them there at any time.</p>
+
+  <h2>Permissions and your choices</h2>
+  <p>You're always in control. You can grant or revoke <strong>Location</strong>,
+  <strong>Notifications</strong>, and <strong>Health</strong> access at any time in the
+  iOS <strong>Settings</strong> app (or, for Health, in the <strong>Health app</strong>
+  under your profile → Apps). Turning a permission off may disable the related feature,
+  but the app will continue to work for everything else.</p>
+
+  <h2>Children's privacy</h2>
+  <p>Slather does not knowingly collect personal information from anyone, including
+  children. The app collects no personal data on the developer's behalf.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted at this address with a
+  new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or your privacy in Slather? Contact
+  <strong>David Price</strong> at
+  <a href="mailto:david@ddprice.com">david@ddprice.com</a>.</p>
+
+  <footer>© 2026 David Price. Slather.</footer>
+</main>
+</body>
+</html>
