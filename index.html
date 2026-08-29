@@ -31,7 +31,7 @@
 <body>
 <main>
   <h1><span class="sun">🌞</span> Slather — Privacy Policy</h1>
-  <p class="eff">Effective date: June 19, 2026</p>
+  <p class="eff">Effective date: August 28, 2026</p>
 
   <p>Slather is a sunscreen-reapplication reminder app. It reads the current UV index
   for your location, lets you pick an SPF, and reminds you when to reapply. This policy
@@ -43,12 +43,16 @@
   <strong>no advertising</strong>, <strong>no tracking</strong>, and
   <strong>no third-party data collection</strong>. Slather has no servers of its own —
   your session history, settings, and reminders live <strong>on your device</strong>.
-  The only piece of information that leaves your device is your <strong>location</strong>,
-  which is sent to Apple's weather service so the app can look up your local UV index.</p>
+  The only information Slather itself sends off your device is your
+  <strong>location</strong>, which goes to Apple's weather service so the app can look
+  up your local UV index.
+  Purchases of Slather Premium are handled entirely by Apple — the developer never sees
+  your payment details.</p>
 
   <h2>Information Slather uses</h2>
   <p><strong>Location.</strong> With your permission, Slather reads your device's
-  location and sends it to <strong>Apple WeatherKit</strong> to retrieve the current UV
+  location — on your iPhone, and on your Apple Watch if you use the watch app — and
+  sends it to <strong>Apple WeatherKit</strong> to retrieve the current UV
   index for where you are. Your location is used only for this purpose, while you're
   using the app. It is <strong>not</strong> stored by the developer, <strong>not</strong>
   linked to your identity, and <strong>not</strong> used to track you. If you deny
@@ -62,14 +66,45 @@
   enabled), under Apple's control — not the developer's. You can turn this off at any
   time, and delete the samples in the Health app.</p>
 
-  <p><strong>On-device data.</strong> Your <strong>session history</strong> and
-  <strong>app preferences</strong> (such as your default SPF) are stored locally on your
-  device using Apple's standard storage (Core Data and UserDefaults). This information
-  never leaves your device and is not transmitted to the developer or anyone else.</p>
+  <p><strong>On-device data.</strong> Your <strong>session history</strong>,
+  <strong>profiles</strong>, and <strong>app preferences</strong> (such as your default
+  SPF) are stored locally on your device using Apple's standard storage (Core Data and
+  UserDefaults). This information never leaves your device and is not transmitted to the
+  developer or anyone else.</p>
+
+  <p><strong>Apple Watch.</strong> If you use the Slather watch app, your current
+  session and UV reading are mirrored between your iPhone and your Apple Watch using
+  Apple's device-to-device connection (WatchConnectivity). This stays between your own
+  paired devices — it does not pass through any developer server.</p>
 
   <p><strong>Notifications.</strong> Reapply reminders are <strong>local
   notifications</strong> scheduled on your device. They are not sent through any server
   and do not involve any personal data leaving your phone.</p>
+
+  <h2>Purchases and subscriptions</h2>
+  <p>Slather offers an optional paid tier, <strong>Slather Premium</strong>, as an
+  auto-renewing annual subscription or a one-time lifetime purchase. Everything about
+  the transaction is handled by <strong>Apple</strong> through your App Store
+  account:</p>
+  <ul>
+    <li>Apple processes the payment and receives your payment details. The developer
+    <strong>never sees</strong> your payment information — Slather receives only a
+    confirmation from the App Store that Premium is unlocked: no payment details, and
+    no information identifying you.</li>
+    <li>Your entitlement is checked <strong>on your device</strong> using Apple's
+    StoreKit framework against your App Store account. Slather runs no purchase servers
+    and keeps no purchase records of its own.</li>
+    <li>No account with the developer is created or required to buy, restore, or use
+    Premium.</li>
+    <li>You can manage or cancel the subscription anytime in your <strong>Apple ID
+    subscription settings</strong>, and restore a previous purchase on any device signed
+    into the same App Store account. If Family Sharing is enabled for the purchase,
+    eligible family members receive Premium through Apple's Family Sharing — the
+    developer receives no information about your family members.</li>
+  </ul>
+  <p>Apple's handling of purchase data is governed by the
+  <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a> and the
+  <a href="https://www.apple.com/legal/internet-services/itunes/">App Store terms</a>.</p>
 
   <h2>What Slather does not do</h2>
   <ul>
@@ -78,7 +113,8 @@
     <li>It does <strong>not</strong> contain advertising or ad-tracking.</li>
     <li>It does <strong>not</strong> track you across apps or websites.</li>
     <li>It does <strong>not</strong> include third-party SDKs that collect your data.</li>
-    <li>It does <strong>not</strong> sell or share your personal information.</li>
+    <li>It does <strong>not</strong> sell or share your personal information. (There is
+    nothing to sell — no personal data is collected by the developer.)</li>
   </ul>
 
   <h2>Third-party services</h2>
@@ -88,18 +124,22 @@
     <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</li>
     <li><strong>Apple Health (HealthKit)</strong> — stores the UV-exposure samples you
     opt to save, under Apple's control and your Health privacy settings.</li>
-    <li><strong>Apple TestFlight (beta only)</strong> — while Slather is distributed as a
-    TestFlight beta, Apple may collect crash logs and basic usage information from the
-    beta build to help diagnose problems, governed by Apple's
-    <a href="https://www.apple.com/legal/privacy/">privacy policy</a>. The developer does
-    not receive your personal information through this.</li>
+    <li><strong>Apple App Store / StoreKit</strong> — processes Slather Premium
+    purchases, as described above.</li>
+    <li><strong>Apple App Store distribution</strong> — Slather is distributed through
+    the App Store. If you have shared crash and diagnostic data with app developers in
+    your device's privacy settings, Apple may provide the developer with anonymized
+    crash logs and aggregate statistics; the developer receives no personally
+    identifying information through this. Governed by Apple's
+    <a href="https://www.apple.com/legal/privacy/">privacy policy</a>.</li>
   </ul>
 
   <h2>Data retention and deletion</h2>
   <p>Because your data is stored on your device, <strong>deleting the Slather app
-  removes</strong> its session history and preferences from your device. UV-exposure
+  removes</strong> its session history, profiles, and preferences from your device. UV-exposure
   samples written to Apple Health are managed in the <strong>Health app</strong> and are
-  not deleted by removing Slather — you can remove them there at any time.</p>
+  not deleted by removing Slather — you can remove them there at any time. Purchase
+  records belong to your App Store account and are managed by Apple.</p>
 
   <h2>Permissions and your choices</h2>
   <p>You're always in control. You can grant or revoke <strong>Location</strong>,
@@ -110,7 +150,9 @@
 
   <h2>Children's privacy</h2>
   <p>Slather does not knowingly collect personal information from anyone, including
-  children. The app collects no personal data on the developer's behalf.</p>
+  children. The app collects no personal data on the developer's behalf. Purchases by
+  children in a Family Sharing group are subject to Apple's Ask to Buy and
+  parental-approval systems.</p>
 
   <h2>Changes to this policy</h2>
   <p>If this policy changes, the updated version will be posted at this address with a
